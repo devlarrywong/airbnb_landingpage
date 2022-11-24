@@ -1,0 +1,45 @@
+.Card__container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 176px;
+  margin: 40px;
+}
+
+.Card__photo {
+  width: 176px;
+  border-radius: 9px;
+}
+
+.Card__rating-container {
+  display: flex;
+  gap: 5px;
+}
+
+.Card__cardPhoto {
+  height: 12px;
+}
+
+.Card__font {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.Card__font-black {
+  color: #222222;
+}
+
+.Card__font-grey {
+  color: #918e9b;
+}
+
+.Card__price-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Card__bold {
+  font-weight: 600;
+}
