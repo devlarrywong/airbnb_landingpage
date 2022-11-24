@@ -1,0 +1,8 @@
+.Cards__container {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.Cards__container::-webkit-scrollbar {
+  display: none;
+}

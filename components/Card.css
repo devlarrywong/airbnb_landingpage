@@ -6,9 +6,14 @@
   margin: 40px;
 }
 
+.Card__photo-container {
+  position: relative;
+}
+
 .Card__photo {
   width: 176px;
   border-radius: 9px;
+  cursor: pointer;
 }
 
 .Card__rating-container {
@@ -42,4 +47,14 @@
 
 .Card__bold {
   font-weight: 600;
+}
+
+.Card__photo-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 2px 5px;
+  border-radius: 2px;
+  font-weight: bold;
 }
