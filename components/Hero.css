@@ -5,6 +5,7 @@ main {
 }
 
 .Hero__photoGrid {
+  max-width: 600px;
   margin: 20px;
 }
 
